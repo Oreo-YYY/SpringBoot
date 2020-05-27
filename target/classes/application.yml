@@ -1,0 +1,28 @@
+server:
+  port: 8090
+
+teacher:
+  lastName: zhangsan
+  age: 18
+  boss: false
+  brith: 2017/12/12
+  maps: {k1: v1,k2: 12}
+  lists:
+    - lisi
+    - zhaoliu
+  dog:
+    name: xiaogou
+    age: 2
+
+
+spring:
+  datasource:
+    username: root
+    password: 111
+    url: jdbc:mysql://localhost:3306/ssm
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

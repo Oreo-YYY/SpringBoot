@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "teacher",
+      "type": "com.example.demo.model.Teacher",
+      "sourceType": "com.example.demo.model.Teacher"
+    }
+  ],
+  "properties": [
+    {
+      "name": "teacher.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.model.Teacher"
+    },
+    {
+      "name": "teacher.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.demo.model.Teacher"
+    },
+    {
+      "name": "teacher.brith",
+      "type": "java.util.Date",
+      "sourceType": "com.example.demo.model.Teacher"
+    },
+    {
+      "name": "teacher.dog",
+      "type": "com.example.demo.model.Dog",
+      "sourceType": "com.example.demo.model.Teacher"
+    },
+    {
+      "name": "teacher.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.model.Teacher"
+    },
+    {
+      "name": "teacher.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.example.demo.model.Teacher"
+    },
+    {
+      "name": "teacher.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.example.demo.model.Teacher"
+    }
+  ],
+  "hints": []
+}
