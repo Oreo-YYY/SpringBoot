@@ -16,13 +16,23 @@ teacher:
 
 
 spring:
+  application:
+    name: demo
   datasource:
     username: root
     password: 111
-    url: jdbc:mysql://localhost:3306/ssm
+    url: jdbc:mysql://localhost:3306/stu
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
+
+# 打印sql
+logging:
+  level:
+    com.neusoft.demosb.dao : debug
+  #path: #指定路径与file。二选一即可
+  #file: app.log #指定文件
+  #config: #指定日志配置文件路径

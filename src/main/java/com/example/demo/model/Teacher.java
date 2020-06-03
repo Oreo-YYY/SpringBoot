@@ -17,7 +17,7 @@ public class Teacher {
     private Boolean boss;
     private Date brith;
 
-    private Map<String,Object> maps;
+    private Map<String, Object> maps;
     private List<Object> lists;
     private Dog dog;
 
